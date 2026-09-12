@@ -1,0 +1,116 @@
+ body {background:linear-gradient(40deg, #0c0c0c,#444) 
+    ;color: white; 
+    font-family:Arial, Helvetica, sans-serif ;
+    h1 {font-size: 40px;
+    text-align: center;}
+    h2 {margin-top: 40px;}
+    p {font-size: 5px;}
+    li {margin: 10px 0 ;}
+}
+.level-card {background: linear-gradient(135deg,#444, #222);
+    border-radius: 15px;
+    padding: 20px ;
+    margin: 20px auto;
+    max-width: 600px;
+    border: radius 12px ; 
+    border: 3px solid white; 
+    box-sizing: border-box;
+position: relative;
+transition:transform 0.2s;}
+.level-card2 
+{background: linear-gradient(135deg,#222, #444);
+    border-radius: 15px;
+    padding: 20px ;
+    margin: 20px auto;
+    max-width: 600px;
+    border: radius 12px ;
+    border: 3px solid white; 
+    box-sizing: border-box;
+position: relative;
+transition:transform 0.2s;}
+.level-card3 
+{background:linear-gradient(50deg, #222,#444);
+    border-radius: 15px;
+     padding: 20px ;
+     margin: 20px auto;
+     max-width: 600px;
+     border: radius 12px ;
+    border: 3px solid white; 
+    box-sizing: border-box;
+position: relative;
+transition:transform 0.2s;}
+ul {padding-left: 20px;}
+li {margin: 12px 0;}
+input {margin-right: 8px;}
+.test-flex {display: flex;
+justify-content: center;
+;
+align-items: center;;
+gap: 20px;}
+.xp {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.top-button:hover {transform: scale(1.05);}
+.level-card :hover{transform: scale(1.02);}
+.level-card2:hover {
+    transform: translateY(-3px);
+}
+.level-card:hover {
+    transform: translateY(-3px);
+}
+.level-card2 :hover{transform: scale(1.02);}
+.level-card h2,
+.level-card li {
+    transition: transform 0.2s;
+}
+.level-card2 h2,
+.level-card2 li {
+    transition: transform 0.2s;
+}
+.level-card2 {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.level-card > * {
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.level-card > *:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.level-card2{border-radius: 15px;}
+.level-card3 {border-radius: 15px;}
+.level-card3 {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.level-card3 :hover{transform: scale(1.02);}
+.level-card3:hover {
+    transform: translateY(-3px)}
+   .level-card3 > * {
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.level-card3 > *:hover {
+    opacity: 1;
+    transform: scale(1.02);
+} 
+.level-card2 > * {
+    opacity: 0.7;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.level-card2 > *:hover {
+    opacity: 1;
+    transform: scale(1.02);
+} 
+.level-card3 h2,
+.level-card3 li {
+    transition: transform 0.2s;
+}
