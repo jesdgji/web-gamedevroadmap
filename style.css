@@ -1,3 +1,4 @@
+ :root
  body {background:linear-gradient(40deg, #0c0c0c,#444) 
     ;color: white; 
     font-family:Arial, Helvetica, sans-serif ;
@@ -12,6 +13,10 @@
     padding: 20px ;
     margin: 20px auto;
     max-width: 600px;
+    min-width: 300px;
+     width:80%;
+     min-height: 200px;
+     max-height: 500px;
     border: radius 12px ; 
     border: 3px solid white; 
     box-sizing: border-box;
@@ -23,6 +28,10 @@ transition:transform 0.2s;}
     padding: 20px ;
     margin: 20px auto;
     max-width: 600px;
+    min-width: 300px;
+     width:80%;
+     min-height: 200px;
+     max-height: 500px;
     border: radius 12px ;
     border: 3px solid white; 
     box-sizing: border-box;
@@ -36,6 +45,9 @@ transition:transform 0.2s;}
      max-width: 600px;
      min-width: 300px;
      width:80%;
+     min-height: 200px;
+     max-height: 500px;
+     overflow:auto;
      border: radius 12px ;
     border: 3px solid white; 
     box-sizing: border-box;
@@ -124,6 +136,10 @@ text-align:center;}
 .level-card3 h2{font-size: 30px;}
 .level-card ul{list-style:none;
 padding:0;}
+.level-card2 ul{list-style:none;
+padding:0;}
+.level-card3 ul{list-style:none;
+padding:0;}
 .level-card li {display:block;
     margin: bottom 40px;}
 .level-card input {width: 18px;
@@ -133,3 +149,55 @@ cursor: pointer;}
 .level-card input:checked + span {text-decoration:line-through;
 opacity:0.5;}
 .level-card span {transition:opacity 0.2s;}
+.level-card {
+    width: 80%;
+}
+.level-card2 li {display:block;
+    margin: bottom 40px;}
+.level-card2 input {width: 18px;
+height: 18px;
+cursor: pointer;}
+.level-card2 input:checked {accent-color:green;}
+.level-card2 input:checked + span {text-decoration:line-through;
+opacity:0.5;}
+.level-card2 span {transition:opacity 0.2s;}
+.level-card2 {
+    width: 80%;
+}
+.level-card3 li {display:block;
+    margin: bottom 40px;}
+.level-card3 input {width: 18px;
+height: 18px;
+cursor: pointer;}
+.level-card3 input:checked {accent-color:green;}
+.level-card3 input:checked + span {text-decoration:line-through;
+opacity:0.5;}
+.level-card3 span {transition:opacity 0.2s;}
+.level-card3 {
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+    .level-card,.level-card2,.level-card3 {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .level-card,.levelcard2,.level-card3 {
+        width: 70%;
+    }
+}
+@media (max-width: 600px) {
+    .level-card,
+    .level-card2,
+    .level-card3 {
+        width: 90%;
+    }
+
+    .level-card h2,
+    .level-card2 h2,
+    .level-card3 h2 {
+        font-size: 20px;
+    }
+}
