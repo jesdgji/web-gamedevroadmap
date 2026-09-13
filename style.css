@@ -34,6 +34,8 @@ transition:transform 0.2s;}
      padding: 20px ;
      margin: 20px auto;
      max-width: 600px;
+     min-width: 300px;
+     width:80%;
      border: radius 12px ;
     border: 3px solid white; 
     box-sizing: border-box;
@@ -56,6 +58,7 @@ gap: 20px;}
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index:10;
 }
 .top-button:hover {transform: scale(1.05);}
 .level-card :hover{transform: scale(1.02);}
@@ -114,3 +117,19 @@ gap: 20px;}
 .level-card3 li {
     transition: transform 0.2s;
 }
+.level-card h2{font-size: 30px;
+font-weight:bold;
+text-align:center;}
+.level-card2 h2{font-size: 30px;}
+.level-card3 h2{font-size: 30px;}
+.level-card ul{list-style:none;
+padding:0;}
+.level-card li {display:block;
+    margin: bottom 40px;}
+.level-card input {width: 18px;
+height: 18px;
+cursor: pointer;}
+.level-card input:checked {accent-color:green;}
+.level-card input:checked + span {text-decoration:line-through;
+opacity:0.5;}
+.level-card span {transition:opacity 0.2s;}
